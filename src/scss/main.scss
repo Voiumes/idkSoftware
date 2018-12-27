@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Alegreya', serif;
+}
+.space{
+    height: 1000px;
+}
+body{
+    background: rgb(250, 250, 250) !important;
+}
+.custcontainer{
+    width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    padding: 35px 0 35px 0 !important;
+    height: 100px;
+    .navlogo{
+        text-align: center;
+        color:#0073e6;
+        border: 3px solid #0073e6;
+        letter-spacing: 5px;
+        font-weight: 700;
+        padding: 8px 20px;
+        width: 100px;
+        margin:0 auto;
+        font-family: "Cooper Black";
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none !important;
+    }
+    span{
+        margin: 0 3px 0 1px;
+        font-family: "Cooper Black";
+    }
+    .navbar-nav{
+        @media only screen and (max-width: 1240px) {
+          display: none;
+    }
+}
+    ul{
+        position: absolute;
+        right: 200px;
+        a{
+            font-size: 26px;
+            color: #0073e6 !important;
+        }
+    }
+}
+#section1{
+    height: auto;
+    h3{
+        margin: 150px 0 0 0;
+
+        font-size: 2.8rem;
+        font-style: italic;
+        text-align: center;
+        color: rgb(41, 41, 41);
+    }
+    .s1-img{  
+        height: auto;
+        width: 100%;
+        margin:80px auto 0 auto;
+        text-align: center;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}
+#section2{
+    margin: 80px 0 0 0;
+    .s2-description-grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        .s2-description{
+            padding: 0 30% 0 0;
+        }
+        .s2-contact{
+            text-align: right;
+            button{
+                color: white;
+                background: #0073e6;
+                width: 380px;
+                height: 68px;
+                font-family: Arial, Helvetica, sans-serif;
+                letter-spacing: 4px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+    .s2-info-grid{
+        margin: 200px 0 0 0;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        h1{
+            font-style: italic;
+            font-size: 26px;
+            margin: 0 0 40px 0;
+        }
+        p{
+            margin: 0 0 40px 0;
+            padding: 0 10% 0 0;
+        }
+        i{
+            font-size: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+}
+#section3{
+    position: relative;
+    margin: 230px 0 0 0;
+    .s3-img{
+        position: absolute;
+        right:0;
+        width: 960px;
+        height: 480px;
+        background: url(../img/computer.png)no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .s3-ourpractice{
+        position:absolute;
+        left:-34%;
+        top:100px;
+        height: 275px;
+        width: 580px;
+        background-color: rgb(243, 243, 243);
+        padding: 50px;
+        h1{
+            font-size: 26px;
+            font-style: italic;
+            
+        }
+        p{
+            font-size: 15px;
+            margin: 35px 0 35px 0;
+        }
+        a{  
+            background: #0073e6;
+            color: white;
+            padding: 15px 30px;
+            letter-spacing: 2px;
+            height: 50px;
+            width:150px;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+#section4{
+    width: 1000px;
+    margin:900px auto 0 auto;
+    text-align: center;
+    h3{
+        font-size: 36px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
