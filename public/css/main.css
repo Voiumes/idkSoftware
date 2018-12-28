@@ -3,9 +3,6 @@
   margin: 0;
   font-family: 'Alegreya', serif; }
 
-.space {
-  height: 1000px; }
-
 body {
   background: #fafafa !important; }
 
@@ -94,6 +91,7 @@ nav {
       text-decoration: none; }
 
 #section3 {
+  height: 680px;
   position: relative;
   margin: 230px 0 0 0; }
   #section3 .s3-img {
@@ -132,9 +130,79 @@ nav {
 
 #section4 {
   width: 1000px;
-  margin: 900px auto 0 auto;
+  margin: 0 auto 0 auto;
   text-align: center; }
   #section4 h3 {
-    font-size: 36px; }
+    font-size: 48px;
+    font-style: italic; }
   #section4 p {
     font-size: 20px; }
+
+#section5 {
+  height: 640px;
+  position: relative;
+  margin: 230px 0 0 0;
+  border-bottom: 1px solid #ebebeb; }
+  #section5 .s5-img {
+    position: absolute;
+    left: 0;
+    width: 960px;
+    height: 480px;
+    background: url(../img/computer2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  #section5 .s5-topten {
+    position: absolute;
+    right: -34%;
+    top: 100px;
+    height: 275px;
+    width: 580px;
+    background-color: #f3f3f3;
+    padding: 50px;
+    text-align: right; }
+    #section5 .s5-topten h1 {
+      font-size: 26px;
+      font-style: italic; }
+    #section5 .s5-topten p {
+      font-size: 15px;
+      margin: 35px 0 35px 0; }
+    #section5 .s5-topten a {
+      background: #0073e6;
+      color: white;
+      padding: 15px 30px;
+      letter-spacing: 2px;
+      height: 50px;
+      width: 150px;
+      border-radius: 5px;
+      font-family: Arial, Helvetica, sans-serif; }
+
+#section6 {
+  width: 1000px;
+  height: 350px;
+  margin: 100px auto 0 auto;
+  text-align: center; }
+  #section6 h3 {
+    font-size: 48px;
+    font-style: italic; }
+  #section6 p {
+    font-size: 20px;
+    margin: 0 0 100px 0; }
+  #section6 a {
+    background: #0073e6;
+    color: white;
+    padding: 15px 30px;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; }
+
+footer {
+  height: 80px;
+  text-align: center; }
+  footer p {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 2px; }
