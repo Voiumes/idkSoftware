@@ -7,7 +7,7 @@ body {
   background: #fafafa !important; }
 
 .custcontainer {
-  width: 1280px;
+  width: 66.6%;
   margin: 0 auto; }
 
 nav {
@@ -42,7 +42,8 @@ nav {
 #section1 {
   height: auto; }
   #section1 h3 {
-    margin: 150px 0 0 0;
+    width: 70%;
+    margin: 150px auto 0 auto;
     font-size: 2.8rem;
     font-style: italic;
     text-align: center;
@@ -89,6 +90,24 @@ nav {
       font-size: 10px; }
     #section2 .s2-info-grid a {
       text-decoration: none; }
+  @media screen and (max-width: 975px) {
+    #section2 .s2-description-grid {
+      display: block; }
+      #section2 .s2-description-grid .s2-description {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 0 80px 0; }
+      #section2 .s2-description-grid .s2-contact {
+        text-align: center; }
+        #section2 .s2-description-grid .s2-contact button {
+          color: white;
+          background: #0073e6;
+          width: 380px;
+          height: 68px;
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: 4px;
+          border-radius: 5px;
+          cursor: pointer; } }
 
 #section3 {
   height: 680px;
@@ -97,8 +116,8 @@ nav {
   #section3 .s3-img {
     position: absolute;
     right: 0;
-    width: 960px;
-    height: 480px;
+    width: 85%;
+    height: 85%;
     background: url(../img/computer.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -107,9 +126,9 @@ nav {
   #section3 .s3-ourpractice {
     position: absolute;
     left: -34%;
-    top: 100px;
-    height: 275px;
-    width: 580px;
+    top: 150px;
+    height: auto;
+    width: 60%;
     background-color: #f3f3f3;
     padding: 50px; }
     #section3 .s3-ourpractice h1 {
@@ -129,7 +148,7 @@ nav {
       font-family: Arial, Helvetica, sans-serif; }
 
 #section4 {
-  width: 1000px;
+  width: 85%;
   margin: 0 auto 0 auto;
   text-align: center; }
   #section4 h3 {
@@ -146,8 +165,8 @@ nav {
   #section5 .s5-img {
     position: absolute;
     left: 0;
-    width: 960px;
-    height: 480px;
+    width: 85%;
+    height: 85%;
     background: url(../img/computer2.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -156,9 +175,9 @@ nav {
   #section5 .s5-topten {
     position: absolute;
     right: -34%;
-    top: 100px;
-    height: 275px;
-    width: 580px;
+    top: 130px;
+    height: auto;
+    width: 60%;
     background-color: #f3f3f3;
     padding: 50px;
     text-align: right; }
@@ -179,7 +198,7 @@ nav {
       font-family: Arial, Helvetica, sans-serif; }
 
 #section6 {
-  width: 1000px;
+  width: 80%;
   height: 350px;
   margin: 100px auto 0 auto;
   text-align: center; }
@@ -201,6 +220,7 @@ nav {
     text-decoration: none; }
 
 footer {
+  margin: 80px 0 0 0;
   height: 80px;
   text-align: center; }
   footer p {
