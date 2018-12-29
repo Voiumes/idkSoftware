@@ -1,4 +1,23 @@
 @media screen and (max-width: 975px) {
+  #section2 {
+    margin: 80px 0 0 0; }
+    #section2 .s2-description-grid {
+      display: block; }
+      #section2 .s2-description-grid .s2-description {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto; }
+      #section2 .s2-description-grid .s2-contact {
+        text-align: center; }
+        #section2 .s2-description-grid .s2-contact button {
+          color: white;
+          background: #0073e6;
+          width: 380px;
+          height: 68px;
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: 4px;
+          border-radius: 5px;
+          cursor: pointer; }
   #section3 {
     height: 680px;
     position: relative;
@@ -15,6 +34,7 @@
     #section3 .s3-ourpractice {
       position: absolute;
       left: 20%;
+      text-align: center;
       top: 250px;
       height: auto;
       width: 60%;
@@ -25,16 +45,26 @@
         font-style: italic; }
       #section3 .s3-ourpractice p {
         font-size: 15px;
-        margin: 35px 0 35px 0; }
+        margin: 20px 0 20px 0; }
       #section3 .s3-ourpractice a {
         background: #0073e6;
         color: white;
-        padding: 15px 30px;
+        padding: 5% 5%;
         letter-spacing: 2px;
         height: 50px;
         width: 80%;
         border-radius: 5px;
-        font-family: Arial, Helvetica, sans-serif; }
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw; }
+  #section4 {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    text-align: center; }
+    #section4 h3 {
+      font-size: 36px;
+      font-style: italic; }
+    #section4 p {
+      font-size: 20px; }
   #section5 {
     height: 640px;
     position: relative;
@@ -58,7 +88,7 @@
       width: 60%;
       background-color: #f3f3f3;
       padding: 50px;
-      text-align: right; }
+      text-align: center; }
       #section5 .s5-topten h1 {
         font-size: 26px;
         font-style: italic; }
@@ -68,9 +98,31 @@
       #section5 .s5-topten a {
         background: #0073e6;
         color: white;
-        padding: 15px 30px;
+        padding: 15px 8%;
         letter-spacing: 2px;
         height: 50px;
-        width: 150px;
+        width: 80%;
         border-radius: 5px;
-        font-family: Arial, Helvetica, sans-serif; } }
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw; }
+  #section6 {
+    width: 80%;
+    height: 350px;
+    margin: 100px auto 0 auto;
+    text-align: center; }
+    #section6 h3 {
+      font-size: 36px;
+      font-style: italic; }
+    #section6 p {
+      font-size: 20px;
+      margin: 0 0 100px 0; }
+    #section6 a {
+      background: #0073e6;
+      color: white;
+      padding: 15px 30px;
+      letter-spacing: 2px;
+      height: 50px;
+      width: 150px;
+      border-radius: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none; } }
